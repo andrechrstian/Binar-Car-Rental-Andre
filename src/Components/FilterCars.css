@@ -1,0 +1,325 @@
+.filtercars-section {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 450px;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.filtercars-section-false {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.filtercars-bg {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: white;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.filtercars-bg:hover {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0px 0px 0px 10000px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+    -moz-transition: box-shadow 0.5s;
+    -ms-transition: box-shadow 0.5s;
+    -o-transition: box-shadow 0.5s;
+}
+
+.filtercars-bg-false {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.filtercars-top {
+    margin-bottom: 16px;
+}
+
+.filtercars-top-p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.filtercars-search-bg {
+    display: flex;
+    gap: 16px;
+}
+
+.filtercars-input-title {
+    margin-bottom: 4px;
+}
+
+.filtercars-input-title-p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.filtercars-input-name {
+    border: 0;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    font-family: 'Rubik', sans-serif;
+    border: 1px solid #CCCCCC;
+    padding: 9px 12px;
+    width: 210px;
+    border-radius: 0.375rem;
+    -webkit-border-radius: 0.375rem;
+    -moz-border-radius: 0.375rem;
+    -ms-border-radius: 0.375rem;
+    -o-border-radius: 0.375rem;
+}
+
+.filtercars-input-name-disable {
+    border: 0;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    font-family: 'Rubik', sans-serif;
+    border: 1px solid #CCCCCC;
+    padding: 9px 12px;
+    width: 237.75px;
+    background-color: #D0D0D0;
+    border-radius: 0.375rem;
+    -webkit-border-radius: 0.375rem;
+    -moz-border-radius: 0.375rem;
+    -ms-border-radius: 0.375rem;
+    -o-border-radius: 0.375rem;
+    color: #D0D0D0;
+    pointer-events: none;
+}
+
+.filtercars-select {
+    width: 210px !important;
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+    font-size: 12px !important;
+    color:  #8A8A8A !important;
+}
+
+.filtercars-select-disable {
+    width: 237.75px !important;
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+    font-size: 12px !important;
+    color:  #D0D0D0 !important;
+    background-color: #D0D0D0 !important;
+    pointer-events: none;
+    user-select: none;
+}
+
+.filtercars-dropdown {
+    width: 210px;
+    background-color: transparent !important;
+    color:  #8A8A8A !important;
+    border: 1px solid #CCCCCC !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    padding: 9px 12px !important;
+}
+
+.filtercars-input-harga {
+    gap: 16px;
+    display: flex;
+}
+
+.filtercars-input-status {
+    border: 0;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.filtercars-seacrh-button-bg {
+    display: flex;
+    align-items: flex-end;
+}
+
+.filtercars-seacrh-button {
+    width: 100px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: #5CB85F;
+    border: 0;
+    color: white;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.filtercars-seacrh-button-false {
+    display: none;
+}
+
+.filtercars-seacrh-button-edit {
+    width: 100px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: white;
+    border: 1px solid #0D28A6;
+    color: #0D28A6;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+@media only screen and (max-width:1440px) {
+    .filtercars-section {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 450px;
+        width: 100%;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+
+    .filtercars-section-false {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 270px;
+        width: 100%;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .filtercars-section {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 450px;
+        width: 100%;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+
+    .filtercars-section-false {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 270px;
+        width: 100%;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+
+    .filtercars-input-name {
+        border: 0;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        font-family: 'Rubik', sans-serif;
+        border: 1px solid #CCCCCC;
+        padding: 9px 12px;
+        width: 170px;
+        border-radius: 0.375rem;
+        -webkit-border-radius: 0.375rem;
+        -moz-border-radius: 0.375rem;
+        -ms-border-radius: 0.375rem;
+        -o-border-radius: 0.375rem;
+    }
+
+    .filtercars-input-name-disable {
+        border: 0;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        font-family: 'Rubik', sans-serif;
+        border: 1px solid #CCCCCC;
+        padding: 9px 12px;
+        width: 170px;
+        background-color: #D0D0D0;
+        border-radius: 0.375rem;
+        -webkit-border-radius: 0.375rem;
+        -moz-border-radius: 0.375rem;
+        -ms-border-radius: 0.375rem;
+        -o-border-radius: 0.375rem;
+        color: #D0D0D0;
+        pointer-events: none;
+    }
+
+    .filtercars-select {
+        width: 170px !important;
+        padding-top: 9px !important;
+        padding-bottom: 9px !important;
+        font-size: 12px !important;
+        color:  #8A8A8A !important;
+    }
+
+    .filtercars-select-disable {
+        width: 170px !important;
+        padding-top: 9px !important;
+        padding-bottom: 9px !important;
+        font-size: 12px !important;
+        color:  #D0D0D0 !important;
+        background-color: #D0D0D0 !important;
+        pointer-events: none;
+        user-select: none;
+    }
+}

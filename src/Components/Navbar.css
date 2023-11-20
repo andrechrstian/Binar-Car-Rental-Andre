@@ -1,0 +1,21 @@
+.navbar-section {
+    background-color: #F1F3FF;
+    padding-top: 24px !important;
+}
+
+.navbar-offcan {
+    width: 50% !important;
+}
+
+.navbar-item-link {
+    color: black !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+    padding: 0 !important;
+}
+
+.navbar-item {
+    justify-content: end;
+    gap: 32px;
+}
